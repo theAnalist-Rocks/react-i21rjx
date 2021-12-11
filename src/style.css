@@ -34,6 +34,7 @@ li {
 .field {
   position: absolute;
   bottom: 0;
+  margin-bottom: 10px;
 }
 
 #textfield {
@@ -54,11 +55,12 @@ li {
   cursor: pointer;
 }
 
-@media screen and (min-width: 500px) {
+@media screen and (min-width: 800px) {
   .field {
     position: absolute;
     bottom: 0;
     left: 33%;
+    margin-bottom: 10px;
   }
 
   #submit {
