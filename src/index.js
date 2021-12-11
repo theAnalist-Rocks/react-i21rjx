@@ -20,12 +20,12 @@ function InputMessage(props) {
 
   function handleSubmit(e) {
     //setMessage(e.target.value);
-    if (message === "") {
-      alert("Entrez un message s\'il vous plaît");
-    }
-    else{ props.handleSubmit(message);
-    setMessage('');
-    e.preventDefault();
+    if (message === '') {
+      alert("Entrez un message s'il vous plaît");
+    } else {
+      props.handleSubmit(message);
+      setMessage('');
+      e.preventDefault();
     }
   }
   return (
@@ -67,5 +67,5 @@ function Messages(props) {
   );
 }
 
-const msg = ['Bonjour', 'je suis un chat room'];
+const msg = ['Bonjour', 'Ceci est un chat room en dévéloppement'];
 ReactDOM.render(<Messages data={msg} />, document.getElementById('root'));
