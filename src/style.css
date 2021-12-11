@@ -38,8 +38,9 @@ li {
 
 #textfield {
   width: 80%;
-  height: 30px;
-  border: solid black;
+  height: 33px;
+  border: solid none;
+  border-radius: 5px;
 }
 
 #submit {
@@ -57,12 +58,12 @@ li {
   .field {
     position: absolute;
     bottom: 0;
-    left: 30%;
+    left: 33%;
   }
 
   #submit {
     width: 10%;
-    right: 0%;
+    opacity: 1;
   }
 
   #textfield {
@@ -70,6 +71,6 @@ li {
   }
 
   li {
-    margin-left: 30%;
+    margin-left: 49%;
   }
 }
