@@ -62,10 +62,14 @@ li {
 
   #submit {
     width: 10%;
-    right: 30%;
+    right: 0%;
   }
 
   #textfield {
     width: 40%;
+  }
+
+  li {
+    margin-left: 30%;
   }
 }
