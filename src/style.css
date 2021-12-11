@@ -1,3 +1,71 @@
-h1, p {
+body {
+  margin: 0px;
+  padding: 0px;
+}
+
+h1,
+p {
   font-family: Lato;
+}
+
+li {
+  padding: 10px;
+  background-color: whitesmoke;
+  list-style: none;
+  width: 300px;
+  height: 50px;
+  border-radius: 5px;
+  border: solid black;
+}
+
+.head {
+  background-color: black;
+  opacity: 0.9;
+  width: max;
+  height: 50px;
+  color: white;
+  text-align: center;
+}
+
+#sp {
+  padding: 10px;
+}
+
+.field {
+  position: absolute;
+  bottom: 0;
+}
+
+#textfield {
+  width: 80%;
+  height: 30px;
+  border: solid black;
+}
+
+#submit {
+  right: 0;
+  width: 18%;
+  height: 40px;
+  border: none;
+  background-color: rgb(0, 102, 255);
+  opacity: 0.7;
+  color: white;
+  cursor: pointer;
+}
+
+@media screen and (min-width: 500px) {
+  .field {
+    position: absolute;
+    bottom: 0;
+    left: 30%;
+  }
+
+  #submit {
+    width: 10%;
+    right: 30%;
+  }
+
+  #textfield {
+    width: 40%;
+  }
 }
