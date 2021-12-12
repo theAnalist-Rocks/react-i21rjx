@@ -45,7 +45,7 @@ function MessageList(props) {
   const data = props.data;
   const items = data.map((mes, index) => <li key={index}>{mes}</li>);
   return (
-    <div>
+    <div id="wrapper">
       <ul>{items}</ul>
     </div>
   );
