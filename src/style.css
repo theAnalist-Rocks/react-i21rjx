@@ -14,10 +14,10 @@ li {
   padding: 10px;
   background-color: whitesmoke;
   list-style: none;
-  width: 50%;
+  width: 30%;
   height: 10%;
   border-radius: 5px;
-  border: solid black;
+  border: solid none;
 }
 
 .head {
@@ -66,10 +66,13 @@ li {
   width: 70%;
   border: 1px solid none;
   border-radius: 5px;
-  box-shadow: 0 0 20px 10px rgba(240, 240, 248, 0.596);
   overflow: auto;
 }
 
+#wrapper:hover{
+  box-shadow: 0 0 20px 10px rgba(240, 240, 248, 0.596);
+  transition-duration:2s, 2s ;
+}
 @media screen and (min-width: 800px) {
   .field {
     position: absolute;
