@@ -66,7 +66,7 @@ li {
   width: 70%;
   border: 1px solid none;
   border-radius: 5px;
-  box-shadow: 5px 1px 20px 10px rgba(240, 240, 248, 0.596);
+  box-shadow: 0 0 20px 10px rgba(240, 240, 248, 0.596);
   overflow: auto;
 }
 
@@ -89,5 +89,11 @@ li {
 
   li {
     margin-left: 49%;
+  }
+}
+
+@media screen and (max-width:800px) {
+  #wrapper {
+    height: 100%;
   }
 }
