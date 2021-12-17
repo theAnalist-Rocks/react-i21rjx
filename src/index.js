@@ -25,6 +25,8 @@ function InputMessage(props) {
     } else {
       props.handleSubmit(message);
       setMessage('');
+      const docElement = document.getElementById("textfield")
+      docElement.setAttribute("value", "")
       e.preventDefault();
     }
   }
@@ -67,5 +69,5 @@ function Messages(props) {
   );
 }
 
-const msg = ['Bonjour', 'Ceci est un chat room en dévéloppement'];
+const msg = [];
 ReactDOM.render(<Messages data={msg} />, document.getElementById('root'));
